@@ -62,8 +62,7 @@ def resetbutton(*buttons):
         button["text"]=" "
 
     tkinter.messagebox.showinfo("TIC-TAC-TOE","Game Reseted!")
-        
-        
+                
 Label(Play, text="TIC-TAC-TOE",font=("calibri",30),fg="blue").place(x=250,y=10)
 
 Label(Play, text="Player 1 Name: ",font=("calibri",20),bg="lightblue").place(x=110,y=70)
