@@ -1,9 +1,9 @@
-#traffic light automatic
+#traffic light automatic-two signals
 from tkinter import *
 from time import sleep
 show=Tk()
 show.geometry("450x500")
-show.title("Traffic light manual")
+show.title("Traffic light automatic")
 show.configure(bg="lightblue")
 
 def red():
