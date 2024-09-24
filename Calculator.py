@@ -33,8 +33,8 @@ def div():
     tkinter.messagebox.showinfo("Result","Answer:"+str(result))
 
 def reset():
-    
-
+    num1.set("")
+    num2.set("")
     tkinter.messagebox.showinfo("Reset","values are reseted")
 
 #Adding labels
